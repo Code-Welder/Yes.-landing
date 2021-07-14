@@ -1,0 +1,16 @@
+.icon {
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &--instagram {
+    background-image: url('../assets/img/sprite.svg#instagram');
+  }
+
+  &--fb {
+    background-image: url('../assets/img/sprite.svg#facebook');
+    background-size: 80%;
+  }
+}

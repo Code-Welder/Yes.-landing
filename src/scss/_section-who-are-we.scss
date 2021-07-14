@@ -1,0 +1,51 @@
+.who-are-we {
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__descr {
+    margin-right: 114px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__text {
+    max-width: 468px;
+    margin: 30px 0;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  &__img {
+    max-width: 420px;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  @include media-lg {
+    &__descr {
+      margin-right: 90px;
+    }
+  }
+
+  @include media-md {
+    &__descr {
+      margin-right: 40px;
+    }
+
+    &__text {
+      max-width: 360px;
+      margin: 15px 0;
+      font-size: 18px;
+      line-height: 20px;
+    }
+
+    &__img {
+      max-width: 320px;
+    }
+  }
+}

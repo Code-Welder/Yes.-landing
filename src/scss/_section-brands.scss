@@ -1,0 +1,61 @@
+.brands {
+  &__body {
+    padding-top: 0;
+  }
+
+  &__list {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+    &-item {
+      flex: 1 1 auto;
+      font-size: 11vw;
+      font-weight: 500;
+      letter-spacing: 5px;
+      color: transparent;
+      color: #ffffff;
+      text-shadow: 1px 1px 0 #FFBCBC,
+                   1px -1px 0 #FFBCBC,
+                   -1px 1px 0 #FFBCBC,
+                   -1px -1px 0 #FFBCBC,
+                   1px 0px 0 #FFBCBC,
+                   0px 1px 0 #FFBCBC,
+                   -1px 0px 0 #FFBCBC,
+                   0px -1px 0 #FFBCBC;
+
+      transition: color 150ms linear;
+
+      &:hover {
+        color: #FFBCBC;
+      }
+    }
+  }
+
+  @include media-lg {
+    &__list {
+      &-item {
+        font-size: 10vw;
+      }
+    }
+  }
+
+  @include media-xs {
+    &__body {
+      padding-top: 35px;
+    }
+
+    &__list {
+      flex-direction: column;
+      align-items: center;
+
+      &-item {
+        margin-top: 15px;
+        font-size: 13vw;
+        color: #FFBCBC;
+      }
+    }
+  }
+}
