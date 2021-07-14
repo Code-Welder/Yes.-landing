@@ -1,0 +1,1 @@
+# [Yes.](https://code-welder.github.io/Yes.-landing/) page [from this mockup](https://www.figma.com/file/8qOQOvrSYy72XDFzIEZmbR/Yes.?node-id=0%3A1)
